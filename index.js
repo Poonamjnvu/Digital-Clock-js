@@ -1,6 +1,6 @@
 const clock=()=>{
     let time= new Date();
-    let amorpm="";
+    let amorpm="PM";
     let hour=time.getHours();
     let minute=time.getMinutes();
     let second=time.getSeconds();
@@ -30,7 +30,7 @@ const clock=()=>{
     minutes[0].innerText=minute;
     seconds[0].innerText=second;
     am_pm[0].innerText=amorpm;
-}
+    }
     
         const setAlarm=()=>{
         let timing=document.getElementsByClassName("timing");
@@ -77,11 +77,11 @@ const clock=()=>{
             let greeting=document.getElementById("goodmorning");
             let message=document.getElementById("greeting");
             let image=document.getElementById("greeting-image");
-            image.src="./night.png";
+            image.src="./night.svg";
             message.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
             greeting.innerText="GOOD NIGHT!!";
         }
     }
- 
-clock();
-setInterval(clock,1000);
+    
+    clock();
+    setInterval(clock,1000);

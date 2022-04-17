@@ -103,14 +103,15 @@ main{
     top: 2rem;
   }
   .am {
-    background-image: url("./AM_svg.svg");
+    /* background-image: url("./AM_svg.svg"); */
+    
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
     font-size: 1.25rem;
     padding-top: 1rem;
     box-sizing: border-box;
-    /* background-color: #3d087b; */
+    background-color: #3d087b;
   }
   .timeset {
       margin-top: 35px;
