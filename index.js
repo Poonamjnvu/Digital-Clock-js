@@ -68,7 +68,7 @@ const clock=()=>{
         let greeting=document.getElementById("goodmorning");
         let message=document.getElementById("greeting");
         let image=document.getElementById("greeting-image");
-        image.src="./tea.jpg";
+        image.src="./tea.png";
         message.innerText="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
         greeting.innerText="GOOD EVENING!!";
     }
